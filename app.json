@@ -65,7 +65,7 @@
       "DATABASE_URL": {
          "description": "ʀᴇǫᴜɪʀᴇᴅ ғᴏʀ ᴅᴀᴛᴀʙᴀsᴇ ᴄᴏɴɴᴇᴄᴛɪᴏɴs (sǫʟ :- elephantsql.com).",
          "required": false,
-         "value": ""
+         "value": "postgres://xzuvghotkiomnu:e2263a2d1e5ef572304f570fd86a06513737e2a6f70f9acbbe185b380dbda12b@ec2-35-169-184-61.compute-1.amazonaws.com:5432/d10ivlrn2n4rss"
       },
       "MONGO_DB_URI": {
          "description": "ʀᴇǫᴜɪʀᴇᴅ ғᴏʀ ᴅᴀᴛᴀʙᴀsᴇ ᴄᴏɴɴᴇᴄᴛɪᴏɴs (ᴍᴏɴɢᴏ).",
