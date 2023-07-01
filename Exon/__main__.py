@@ -92,11 +92,12 @@ PM_START_TEX = """
 """
 PM_START_TEXT = """
 *ʜҽʏ ᴛʜᴇʀᴇ* {}, 🥀
-
-*๏ ᴛʜɪs ɪs* {} !
-➻ ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs
+*๏ ᴛʜɪs ɪs* 𝙴ꜱᴅᴇᴀᴛʜ !
 ──────────────────
-*๏ ʜɪᴛ /help ᴛᴏ ғɪɴᴅ ᴏᴜᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ᴛᴏ ᴍʏ ғᴜʟʟ ᴘᴏᴛᴇɴᴛɪᴀʟ.*
+──────────────────
+➤ ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ꜱᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ꜰᴇᴀᴛᴜʀᴇs.
+──────────────────
+[๏](https://telegra.ph/file/db7944c238c4c9b5044ce.jpg) *ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ʟᴇᴀʀɴɴ ᴍᴏʀᴇ.*
 """
 
 HELP_STRINGS = """
@@ -106,14 +107,18 @@ HELP_STRINGS = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="❣ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ ❣︎", url=f"t.me/{BOT_USERNAME}?startgroup=new"
-        ),
+            text="+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ + ", url=f"t.me/{BOT_USERNAME}?startgroup=true"
+        )
     ],
     [
-        InlineKeyboardButton(text="🏡 ᴀʙᴏᴜᴛ 🏡", callback_data="EXON_"),
-        InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🥀", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="🍁ʜᴇʟᴘ🍁", callback_data="help_back") 
+    ],
+    [
+        InlineKeyboardButton(text="✨ꜱᴜᴘᴘᴏʀᴛ✨", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="✧ᴜᴘᴅᴀᴛᴇꜱ✧", url=f"https://t.me/Xd_Bots_Supports"),
     ],
 ]
+
 
 IMPORTED = {}
 MIGRATEABLE = []
